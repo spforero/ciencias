@@ -1,0 +1,62 @@
+.sec {
+    display: inline-flex;
+    margin: 5px 5px 5px auto;
+    width: 100%;
+    /* height: 800px; */
+}
+
+.part1 {
+    width: 35%;
+    background: #100F4C;
+    border-radius: 1rem;
+    margin-right: 10px;
+}
+
+.part1 a {
+    color: white;
+    width: 70%;
+    margin: 6px;
+    text-align: left;
+}
+
+.part2 {
+    width: 100%;
+    margin: 10px;
+    /* display: inline-block; */
+}
+
+.part3 {
+    width: 100%;
+    margin: 10% 15%;
+    display: block!important;
+    text-align: right;
+}
+
+.video {
+    width: 35%;
+    border: 1px solid #100F4C;
+    /* width: 1150px;
+    margin: auto;
+    border: 3px solid #100F4C;
+    border-radius: 10px;
+    background: #100F4C; */
+}
+
+.video p {
+    text-align: center;
+    margin: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.sub_video {
+    display: flex;
+    width: min-content;
+    margin: 10% auto;
+}
+
+.carpeta {
+    margin: 10px 20px;
+}

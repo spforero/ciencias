@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--tipo de documento-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="ingenieras 2022">
+    <link rel="icon" type="image/png" href="unisangil.png" />
+
+
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/normalize.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="estilos/login.css">
+
+    <title>Tesis</title>
+</head>
+
+<body>
+
+    <header class="header" style="background:#100F4C;">
+        <!--cabecera-->
+        <div class="con-header">
+            <div class="imagen-logo">
+                <img src="images/logo.png" style="max-width: 8rem; max-height: 8rem;">
+                <h1 class="titulo">BasicSciences</h1>
+            </div>
+            <div>
+                <!-- Button trigger modal -->
+                <!-- <button data-bs-toggle="modal" data-bs-target="#exampleModal"> -->
+
+                <a style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Iniciar sesion </a>
+                <!-- Launch demo modal
+                    
+      </button> -->
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <div class="agrupar">
+        <section class="seccion">
+            <article>
+                <div style="display: block; width: 100%;">
+                    <h1>Bienvenidos a Nuestra Comunidad Unisangilista</h1>
+                    <div style="display: flex; width: 100%;">
+                        <img src="images/unisan.jpg" style="margin: 0 auto;"></div>
+                </div>
+            </article>
+            <article>
+                <div class="historia">
+                    <p>Hace dos décadas se creó en Colombia una institución de educación superior cuyas características la han hecho particularmente diferente: Unisangil. Su origen fue la Economía Solidaria. Nació en San Gil, Santander, en 1988, motivada
+                        por el interés que tuvo un grupo de organizaciones sociales y cooperativas que vieron en la profesionalización, la ciencia, el conocimiento y la técnica un campo estratégico para el modelo de desarrollo regional.</p>
+                    <p>Dando cumplimiento a su vocación de origen, Unisangil ha tenido un papel de primer orden en la promoción de microempresarios, como también en la consolidación de un capital humano de primer nivel para buscar respuestas a necesidades
+                        y problemáticas de sus zonas de influencia, en un mapa que trasciende las fronteras físicas del departamento de Santander y se integra con Casanare y Boyacá. En 1992 inició labores académicas la sede San Gil; en 1996, la sede Yopal,
+                        y en 2000, la sede Chiquinquirá.
+                    </p>
+                    <p>En 2000 Unisangil firmó una alianza de cooperación con la Universidad Autónoma de Bucaramanga, UNAB, gracias a ella se ha tenido un fortalecimiento institucional y académico, este último se traduce en la oferta de programas académicos
+                        de la UNAB en la zona de influencia de Unisangil.
+                    </p>
+
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <footer class="pie">
+        <p>FUNDACIÓN UNIVERSITARIA DE SAN GIL - UNISANGIL SEDE CHIQUINQUIRÁ</p>
+        <p>TODOS LOS DERECHOS RESERVADOS UNISANGIL - 2016</p>
+        <div style="display: flex; "><img src="images/logo_uni_bn.png" style="margin: 0 auto;" alt="logo uinisangil"></div>
+    </footer>
+
+
+
+
+
+    <!-- Modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Inicio de sesión</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="login-form" class="form" action="" method="get">
+                        <!-- <h3 class="text-center text-info">Inicio de sesión</h3> -->
+                        <div style="width: 100%; display: flex; margin: 0 auto;"><img src="images/login.png" style="margin: 0 auto"></div>
+                        <div class="form-group">
+                            <label for="username" class="text-info">Usuario:</label><br>
+                            <input type="text" name="username" id="username" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="text-info">Contraseña:</label><br>
+                            <input type="text" name="password" id="password" class="form-control">
+                        </div>
+
+                        <div id="register-link" class="text-center">
+                            <a href="#" class="text-info">¿Has olvidado la contraseña?</a>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="text-info"></label><br>
+                            <div style="display: flex;"><br>
+                                <input type="submit" name="Ingresar" class="btn btn-info btn-md" value="Ingresar" style="margin: 0 auto; width: 60%; border-radius: 5rem; background: #1E1C80; border-color: #1E1C80;">
+                            </div>
+                        </div>
+
+                    </form>
+
+
+                </div>
+
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

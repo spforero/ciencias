@@ -1,0 +1,103 @@
+.titulo {
+    /*titulo*/
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+header,
+section,
+footer,
+article hgroup {
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+.agrupar {
+    width: 1150px;
+    background: #ffffff;
+    margin: auto;
+}
+
+.con-header {
+    display: flex;
+    background: #100F4C;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+/*parte de salir y cambiar contraseña*/
+
+.superior {
+    display: flex;
+    width: 22%;
+    justify-content: right;
+}
+
+.seccion {
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+    background: #F2F9FB;
+    margin: 5px 0;
+    box-shadow: 12px 12px 12px 12px rgb(216, 216, 216);
+    /*para la sombra  */
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.seccion h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #100F4C;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+/*Aprendizaje OVA*/
+
+.seccion h2 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.historia {
+    width: 80%;
+    background: #F2F9FB;
+    margin: 5px auto;
+    font-weight: sans-serif;
+    text-align: justify;
+}
+
+.imagen-logo {
+    width: min-content;
+    display: flex;
+    align-items: center;
+}
+
+.pie {
+    background: #1E1C80;
+    margin: 5px 0;
+    padding: 20px 20px;
+}
+
+.pie p {
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
